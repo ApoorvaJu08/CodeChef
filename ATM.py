@@ -1,0 +1,10 @@
+wit,init=map(float,input().split())
+wit=int(wit)
+if(wit<int(init)):
+     if(wit%5==0):
+          init=init-wit-0.50
+     else:
+          init=init
+else:
+     init=init
+print(init)
